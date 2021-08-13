@@ -1,0 +1,9 @@
+---
+author: sms77 e.K.
+description: st2 content pack containing sms77 integration
+email: support@sms77.io
+name: sms77
+ref: sms77
+python_versions:
+  - "3"
+version: 1.0.0
