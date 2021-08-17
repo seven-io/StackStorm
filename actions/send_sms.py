@@ -14,6 +14,8 @@ class Sms77SendSMSAction(Action):
             self.logger.error(error_msg)
             raise Exception(error_msg)
 
+        kwargs['debug'] = kwargs.pop('sandbox', False)
+
         try:
             res = self.client.sms(to, text, kwargs)
             if int(res) not in [100, 101]:

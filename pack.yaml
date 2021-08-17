@@ -6,4 +6,4 @@ name: sms77
 ref: sms77
 python_versions:
   - "3"
-version: 1.1.0
+version: 1.2.0
