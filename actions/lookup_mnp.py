@@ -4,9 +4,9 @@ from sms77api.classes.Lookup import LookupType
 from st2common.runners.base_action import Action
 
 
-class Sms77SendVoiceAction(Action):
+class Sms77LookupMnpAction(Action):
     def __init__(self, config=None, action_service=None):
-        super(Sms77SendVoiceAction, self).__init__(config, action_service)
+        super(Sms77LookupMnpAction, self).__init__(config, action_service)
         self.client = Sms77api(self.config['api_key'])
 
     def run(self, number, json=False):

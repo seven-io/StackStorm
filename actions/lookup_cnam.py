@@ -4,19 +4,19 @@ from sms77api.classes.Lookup import LookupType
 from st2common.runners.base_action import Action
 
 
-class Sms77LookupHlrAction(Action):
+class Sms77LookupCnamAction(Action):
     def __init__(self, config=None, action_service=None):
-        super(Sms77LookupHlrAction, self).__init__(config, action_service)
+        super(Sms77LookupCnamAction, self).__init__(config, action_service)
         self.client = Sms77api(self.config['api_key'])
 
     def run(self, number):
         def on_error(ex):
-            err = ('Failed looking up HLR for: %s, exception: %s\n' % (number, str(ex)))
+            err = ('Failed looking up CNAM for: %s, exception: %s\n' % (number, str(ex)))
             self.logger.error(err)
             raise Exception(err)
 
         try:
-            return self.client.lookup(LookupType.HLR, number)
+            return self.client.lookup(LookupType.CNAM, number)
 
         except Exception as e:
             on_error(e)
