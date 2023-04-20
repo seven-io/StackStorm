@@ -7,7 +7,7 @@ from st2common.runners.base_action import Action
 class SevenLookupHlrAction(Action):
     def __init__(self, config=None, action_service=None):
         super(SevenLookupHlrAction, self).__init__(config, action_service)
-        self.client = Sms77api(self.config['api_key'])
+        self.client = Sms77api(self.config['api_key'], 'StackStorm')
 
     def run(self, number):
         def on_error(ex):
