@@ -1,5 +1,5 @@
 ---
-description: This looks up mobile number portability information using sms77.
+description: This looks up mobile number portability information using seven.
 enabled: true
 entry_point: lookup_mnp.py
 name: lookup_mnp

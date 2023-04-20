@@ -3,9 +3,9 @@ from sms77api.Sms77api import Sms77api
 from st2common.runners.base_action import Action
 
 
-class Sms77SendSMSAction(Action):
+class SevenSendSMSAction(Action):
     def __init__(self, config=None, action_service=None):
-        super(Sms77SendSMSAction, self).__init__(config, action_service)
+        super(SevenSendSMSAction, self).__init__(config, action_service)
         self.client = Sms77api(self.config['api_key'])
 
     def run(self, to, text, **kwargs):

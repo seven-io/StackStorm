@@ -1,5 +1,5 @@
 ---
-description: This looks up caller name information using sms77.
+description: This looks up caller name information using seven.
 enabled: true
 entry_point: lookup_cnam.py
 name: lookup_cnam

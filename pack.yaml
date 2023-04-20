@@ -1,9 +1,9 @@
 ---
-author: sms77 e.K.
-description: st2 content pack containing sms77 integration
-email: support@sms77.io
-name: sms77
-ref: sms77
+author: seven communications GmbH & Co. KG
+description: st2 content pack containing seven integration
+email: support@seven.io
+name: seven
+ref: seven
 python_versions:
   - "3"
-version: 1.3.0
+version: 2.0.0

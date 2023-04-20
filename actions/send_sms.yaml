@@ -1,5 +1,5 @@
 ---
-description: This sends a SMS using sms77.
+description: This sends a SMS using seven.
 enabled: true
 entry_point: send_sms.py
 name: send_sms

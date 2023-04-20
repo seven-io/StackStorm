@@ -1,5 +1,5 @@
 ---
-description: This looks up home location register information using sms77.
+description: This looks up home location register information using seven.
 enabled: true
 entry_point: lookup_hlr.py
 name: lookup_hlr

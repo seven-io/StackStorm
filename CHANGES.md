@@ -1,3 +1,6 @@
+# 2.0.0
+- Rebranding
+
 # 1.3.0
 
 - Add CNAM lookup

@@ -1,5 +1,5 @@
 ---
-description: This retrieves number formatting information using sms77.
+description: This retrieves number formatting information using seven.
 enabled: true
 entry_point: lookup_format.py
 name: lookup_format
