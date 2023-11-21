@@ -32,10 +32,6 @@ parameters:
     description: Enable performance tracking for URLs found in the message text.
     position: 4
     type: boolean
-  sandbox:
-    description: Debug - act like a sandbox not sending SMS. Useful for testing if the API works.
-    position: 5
-    type: boolean
   text:
     description: Body of the message.
     position: 1

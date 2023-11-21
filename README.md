@@ -25,7 +25,7 @@ configuration in `/opt/stackstorm/configs/` by running `st2ctl reload --register
 ## Actions
 
 - **send_sms** - Action which sends SMS. Multiple recipients can be separated by comma.
-  `st2 run seven.send_sms to="01716992343,491625453093" text=HI2U from=StackStorm flash=true performance_tracking=true sandbox=false no_reload=true label=CustomLabel foreign_id=ForeignID delay="2021-12-30 12:00"`
+  `st2 run seven.send_sms to="01716992343,491625453093" text=HI2U from=StackStorm flash=true performance_tracking=true no_reload=true label=CustomLabel foreign_id=ForeignID delay="2021-12-30 12:00"`
 
 - **send_voice** - Action which makes a text-to-speech call using seven API.
   `st2 run seven.send_voice to=+491716992343 text='Dear sir or madam' from=+13134378004 xml=false`
