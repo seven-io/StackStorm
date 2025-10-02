@@ -24,10 +24,6 @@ parameters:
     description: Custom label for sorting analytics.
     position: 7
     type: string
-  no_reload:
-    description: Enables sending duplicate messages (text, type and recipient alike).
-    position: 6
-    type: boolean
   performance_tracking:
     description: Enable performance tracking for URLs found in the message text.
     position: 4
